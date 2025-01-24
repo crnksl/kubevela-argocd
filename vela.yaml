@@ -1,7 +1,7 @@
 apiVersion: core.oam.dev/v1beta1
 kind: Application
 metadata:
-  name: ci-app-app
+  name: ci-app
 spec:
   components:
     - name: ci-app-service
