@@ -1,0 +1,11 @@
+apiVersion: core.oam.dev/v1beta1
+kind: Application
+metadata:
+  name: ci-app-app
+spec:
+  components:
+    - name: ci-app-service
+      type: webservice
+      properties:
+        image: crnksldockerhub/ci-app-example:latest
+        port: 80
