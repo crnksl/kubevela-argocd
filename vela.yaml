@@ -9,6 +9,6 @@ spec:
       properties:
         image: crnksldockerhub/ci-app-example:latest
         port: 80
-targetClusters:
+  targetClusters:
     - name: local
     - name: onap
